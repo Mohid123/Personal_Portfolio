@@ -1,3 +1,6 @@
+import AccordionComp from "@/components/accordion/accordion";
+import Contact from "@/components/contact/contact";
+import Footer from "@/components/footer/footer";
 import Intro from "@/components/intro/intro";
 import LightBulb from "@/components/light-bulb/light-bulb";
 import MouseScroll from "@/components/mouse-scroll/mouse-scroll";
@@ -6,7 +9,7 @@ import SpecialtyCard from "@/components/specialty-card/specialty-card";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-start justify-between w-full min-h-screen mt-20">
+    <main className="flex flex-col w-full min-h-screen mt-20">
       <div className="flex justify-between w-full">
         <Intro></Intro>
         <LightBulb></LightBulb>
@@ -17,6 +20,16 @@ export default function Home() {
       </div>
       <div className="mt-20">
         <Portfolio></Portfolio>
+      </div>
+      <div className="mt-24">
+        <p className="text-5xl font-semibold text-center mb-4" id="cont">Contact Me</p>
+        <Contact></Contact>
+      </div>
+      <div className="my-28">
+        <AccordionComp></AccordionComp>
+      </div>
+      <div className="mt-20 mb-5">
+        <Footer></Footer>
       </div>
     </main>
   )

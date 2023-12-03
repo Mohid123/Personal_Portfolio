@@ -1,7 +1,8 @@
 export default function Portfolio() {
     return (
         <div className="flex flex-col">
-            <p className="text-5xl font-semibold">Selected Works</p>
+            <p className="text-5xl font-semibold text-center">Selected Works</p>
+            <p className="text-sm font-semibold text-center">A few projects I've worked on along the way...</p>
             <div className='gap-4 mt-4 columns-3'>
                 <div className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
@@ -132,13 +133,27 @@ export default function Portfolio() {
                         src="https://res.cloudinary.com/drgn2zip5/image/upload/v1701583591/ah257ut9soazlemtxopq.png"
                     />
                 </div>
+                {/* Sixth */}
+                {/* <div className="relative mb-4 overflow-hidden cursor-pointer w-full rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
+                        <div>
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                            >
+                                <div className="font-bold">Astronomy Portfolio</div>
+                                <div className="text-sm opacity-100 ">
+                                    This portfolio is a showcase application built with the functionality of allowing the user to edit the page
+                                    content as needed. It uses IndexDb to store data and also has offline functionality
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img
+                        alt="abc"
+                        className="object-cover w-full transition duration-300 ease-in-out group-hover:scale-110"
+                        src="https://res.cloudinary.com/drgn2zip5/image/upload/v1701617539/jydfkaivgsgzswkwbr8j.png"
+                    />
+                </div> */}
             </div>
-            {/* <Image className="w-full mb-6 cursor-pointer aspect-square" src={blog} alt='portfolio_img'/>
-                <Image className="w-full mb-6 cursor-pointer aspect-square" src={divideals} alt='portfolio_img'/>
-                <Image className="w-full mb-6 cursor-pointer aspect-video" src={memorial} alt='portfolio_img'/>
-                <Image className="w-full mb-6 cursor-pointer aspect-square" src={smm} alt='portfolio_img'/>
-                <Image className="w-full mb-6 cursor-pointer aspect-video" src={extsy} alt='portfolio_img'/> */}
-            {/* </div> */}
         </div>
     )
 }
