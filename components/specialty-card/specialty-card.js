@@ -4,37 +4,35 @@ import TagCloud from 'TagCloud';
 
 const SpecialtyCard = () => {
     useEffect(() => {
-        return () => {
-            const container = '.tagcloud';
-            const texts = [
-                "JavaScript",
-                "TypeScript",
-                "HTML5",
-                "CSS",
-                "SASS",
-                "Angular",
-                "React JS",
-                "Next JS",
-                "Node JS",
-                "Nest JS",
-                "Express JS",
-                "npm",
-                "Git",
-                "Material UI",
-                "Bootstrap 5",
-                "Tailwind CSS",
-                "RxJS",
-                "Redux",
-                "NgRx"
-            ];
-            const options = {
-                radius: 350 ,
-                maxSpeed: 'normal',
-                initSpeed: 'normal',
-                keep: true,
-            };
-            TagCloud(container, texts, options)
-        }
+        const container = '.tagcloud';
+        const texts = [
+            "JavaScript",
+            "TypeScript",
+            "HTML5",
+            "CSS",
+            "SASS",
+            "Angular",
+            "React JS",
+            "Next JS",
+            "Node JS",
+            "Nest JS",
+            "Express JS",
+            "npm",
+            "Git",
+            "Material UI",
+            "Bootstrap 5",
+            "Tailwind CSS",
+            "RxJS",
+            "Redux",
+            "NgRx"
+        ];
+        const options = {
+            radius: 350 ,
+            maxSpeed: 'normal',
+            initSpeed: 'normal',
+            keep: true,
+        };
+        TagCloud(container, texts, options)
     }, [])
     return (
         <div className='flex justify-between'>
@@ -51,7 +49,7 @@ const SpecialtyCard = () => {
                     Away from the screen, I'm an avid reader, delving into the worlds of literature and anime for inspiration. On the field, my passion for strategy and teamwork shines through in my love for cricket and football. Coding is more than a profession for me; it's a compelling journey of exploration and innovation. Let's collaborate and bring your digital aspirations to fruition! </p>
             </div>
             <div className="relative flex justify-end w-full bg-inherit">
-                <span className='tagcloud font-semibold'></span>
+                <span className='font-semibold tagcloud'></span>
             </div>
         </div>
     )
