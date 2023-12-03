@@ -1,149 +1,143 @@
 export default function Portfolio() {
     return (
         <div className="flex flex-col">
-            <p className="font-semibold text-5xl">Selected Works</p>
-            <div className='gap-4 columns-3 mt-4'>
-                <div className="overflow-hidden aspect-video cursor-pointer rounded-xl relative group mb-4">
-                    <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-44 text-white flex items-end">
+            <p className="text-5xl font-semibold">Selected Works</p>
+            <div className='gap-4 mt-4 columns-3'>
+                <div className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div>
-                            <div className="transform-gpu p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out">
-                                <div className="font-bold">DEPA HRPMS & App Store</div>
-                                <div className="opacity-100 text-sm ">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit. Distinctio dolores error iure, perferendis
-                                    sequi totam. Ad aliquam aperiam atque deleniti dolor
-                                    dolorem enim esse et in, inventore itaque, pariatur
-                                    reprehenderit.
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
+                                <div className="font-bold">DEPA&reg; HRPMS & App Store</div>
+                                <div className="text-sm opacity-100 ">
+                                    A corporate app store for DEPA Interiors LLC, which provides a centralized
+                                    location for managing the organization and its subsidiaries' applications and modules. The app store
+                                    includes many features such as drag-and-drop form builder, Active Directory authentication, workflow
+                                    creation with approval/rejection functionality, PDF forms, and much more.
                                 </div>
                             </div>
                         </div>
                     </div>
                     <img
                         alt="abc"
-                        className="object-cover w-full aspect-video group-hover:scale-110 transition duration-300 ease-in-out"
+                        className="object-cover w-full transition duration-300 ease-in-out aspect-video group-hover:scale-110"
                         src="https://res.cloudinary.com/drgn2zip5/image/upload/v1701583589/klppdmolidnn0xewoqxl.png"
                     />
                 </div>
                 {/* second */}
-                <div className="overflow-hidden aspect-square cursor-pointer rounded-xl relative group mb-4">
-                    <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-44 text-white flex items-end">
+                <div className="relative mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div>
-                            <div className="transform-gpu p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out">
-                                <div className="font-bold">Jessie Watsica</div>
-                                <div className="opacity-100 text-sm ">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit. Distinctio dolores error iure, perferendis
-                                    sequi totam. Ad aliquam aperiam atque deleniti dolor
-                                    dolorem enim esse et in, inventore itaque, pariatur
-                                    reprehenderit.
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
+                                <div className="font-bold">Animetography Blog</div>
+                                <div className="text-sm opacity-100 ">
+                                Crafted as a Progressive Web App (PWA), this application is meticulously engineered for seamless
+                                functionality across desktop and mobile devices alike. Its primary objective is to furnish users with a
+                                robust platform for creating and overseeing blog posts, scheduling content, and facilitating personalized
+                                blog post management within individual user sessions. Boasting a tailor-made, feature-rich text editor, the
+                                application also incorporates essential functionalities such as email notifications and profile management
+                                to ensure a comprehensive user experience
                                 </div>
                             </div>
                         </div>
                     </div>
                     <img
                         alt="abc"
-                        className="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
+                        className="object-cover w-full transition duration-300 ease-in-out aspect-square group-hover:scale-110"
                         src="https://res.cloudinary.com/drgn2zip5/image/upload/v1701583590/e474la5ivfp0aapvxkfy.png"
                     />
                 </div>
                 {/* Second */}
-                <div className="overflow-hidden aspect-square cursor-pointer rounded-xl relative group mb-4">
-                    <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-44 text-white flex items-end">
+                <div className="relative mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div>
-                            <div className="transform-gpu p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
                             >
-                                <div className="font-bold">Jessie Watsica</div>
-                                <div className="opacity-100 text-sm ">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit. Distinctio dolores error iure, perferendis
-                                    sequi totam. Ad aliquam aperiam atque deleniti dolor
-                                    dolorem enim esse et in, inventore itaque, pariatur
-                                    reprehenderit.
+                                <div className="font-bold">Dividis&reg; Social Media Manager</div>
+                                <div className="text-sm opacity-100 ">
+                                    Dividis&reg; Social Media Manager or SMM for short is a Social media management platform developed for
+                                    football clubs to manage all social media accounts, posts and interactions from a single location! It provides
+                                    features like scheduling posts, managing interactions and handling social media profiles of multiple platforms simultaneously.
                                 </div>
                             </div>
                         </div>
                     </div>
                     <img
                         alt="abc"
-                        className="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
+                        className="object-cover w-full transition duration-300 ease-in-out aspect-square group-hover:scale-110"
                         src="https://res.cloudinary.com/drgn2zip5/image/upload/v1701583589/lhjbifoax1vdpmpqjdrv.png"
                     />
                 </div>
                 {/* Third */}
-                <div className="overflow-hidden aspect-video cursor-pointer rounded-xl relative group mb-4">
-                    <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-44 text-white flex items-end">
+                <div className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div>
-                            <div className="transform-gpu p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
                             >
-                                <div className="font-bold">Jessie Watsica</div>
-                                <div className="opacity-100 text-sm ">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit. Distinctio dolores error iure, perferendis
-                                    sequi totam. Ad aliquam aperiam atque deleniti dolor
-                                    dolorem enim esse et in, inventore itaque, pariatur
-                                    reprehenderit.
+                                <div className="font-bold">U.S Border Patrol Museum Dashboard</div>
+                                <div className="text-sm opacity-100 ">
+                                    This application is designed to manage and display the historical data of the United States Border patrol,
+                                    from the old West, Prohibition, and WWII, right up to current operations. It serves to honor the
+                                    bravery and dedication of the people who served their country as well as the patrons who fund this
+                                    non-profit exhibit.
                                 </div>
                             </div>
                         </div>
                     </div>
                     <img
                         alt="abc"
-                        className="object-cover w-full aspect-video group-hover:scale-110 transition duration-300 ease-in-out"
+                        className="object-cover w-full transition duration-300 ease-in-out aspect-video group-hover:scale-110"
                         src="https://res.cloudinary.com/drgn2zip5/image/upload/v1701583590/jsobjx79z6dbukjtejwf.png"
                     />
                 </div>
                 {/* Fourth */}
-                <div className="overflow-hidden aspect-square cursor-pointer rounded-xl relative group mb-4">
-                    <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-44 text-white flex items-end">
+                <div className="relative mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div>
-                            <div className="transform-gpu p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
                             >
-                                <div className="font-bold">Jessie Watsica</div>
-                                <div className="opacity-100 text-sm ">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit. Distinctio dolores error iure, perferendis
-                                    sequi totam. Ad aliquam aperiam atque deleniti dolor
-                                    dolorem enim esse et in, inventore itaque, pariatur
-                                    reprehenderit.
+                                <div className="font-bold">Divideals&trade; Merchant Panel</div>
+                                <div className="text-sm opacity-100 ">
+                                    Divideals&trade; Merchant Panel is an advanced dashboard tailored for merchants and sellers,
+                                    offering a sophisticated platform to seamlessly publish and manage a diverse range of promotional
+                                    content, including deals, vouchers, and products. Its comprehensive suite of features extends
+                                    beyond content publication to encompass robust analytics, providing in-depth insights into sales and purchases
                                 </div>
                             </div>
                         </div>
                     </div>
                     <img
                         alt="abc"
-                        className="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
+                        className="object-cover w-full transition duration-300 ease-in-out aspect-square group-hover:scale-110"
                         src="https://res.cloudinary.com/drgn2zip5/image/upload/v1701583589/fcbehoid67mwhonilepm.png"
                     />
                 </div>
                 {/* Fifth */}
-                <div className="overflow-hidden aspect-video cursor-pointer rounded-xl relative group mb-4">
-                    <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-44 text-white flex items-end">
+                <div className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div>
-                            <div className="transform-gpu p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
                             >
-                                <div className="font-bold">Jessie Watsica</div>
-                                <div className="opacity-100 text-sm ">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit. Distinctio dolores error iure, perferendis
-                                    sequi totam. Ad aliquam aperiam atque deleniti dolor
-                                    dolorem enim esse et in, inventore itaque, pariatur
-                                    reprehenderit.
+                                <div className="font-bold">Extsy&reg; Dashboard</div>
+                                <div className="text-sm opacity-100 ">
+                                Extsy&reg; Dashboard is a Social media application boasting an Nft Marketplace, P2P trade coverage and a
+                                secure crypto wallet to effortlessly send and receive coins or tokens. It has other features such as social media
+                                groups, events, playlists, posting and content management
                                 </div>
                             </div>
                         </div>
                     </div>
                     <img
                         alt="abc"
-                        className="object-cover w-full aspect-video group-hover:scale-110 transition duration-300 ease-in-out"
+                        className="object-cover w-full transition duration-300 ease-in-out aspect-video group-hover:scale-110"
                         src="https://res.cloudinary.com/drgn2zip5/image/upload/v1701583591/ah257ut9soazlemtxopq.png"
                     />
                 </div>
             </div>
-            {/* <Image className="w-full aspect-square mb-6 cursor-pointer" src={blog} alt='portfolio_img'/>
-                <Image className="w-full aspect-square mb-6 cursor-pointer" src={divideals} alt='portfolio_img'/>
-                <Image className="w-full aspect-video mb-6 cursor-pointer" src={memorial} alt='portfolio_img'/>
-                <Image className="w-full aspect-square mb-6 cursor-pointer" src={smm} alt='portfolio_img'/>
-                <Image className="w-full aspect-video mb-6 cursor-pointer" src={extsy} alt='portfolio_img'/> */}
+            {/* <Image className="w-full mb-6 cursor-pointer aspect-square" src={blog} alt='portfolio_img'/>
+                <Image className="w-full mb-6 cursor-pointer aspect-square" src={divideals} alt='portfolio_img'/>
+                <Image className="w-full mb-6 cursor-pointer aspect-video" src={memorial} alt='portfolio_img'/>
+                <Image className="w-full mb-6 cursor-pointer aspect-square" src={smm} alt='portfolio_img'/>
+                <Image className="w-full mb-6 cursor-pointer aspect-video" src={extsy} alt='portfolio_img'/> */}
             {/* </div> */}
         </div>
     )
