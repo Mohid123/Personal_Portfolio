@@ -27,7 +27,7 @@ export default function AccordionComp() {
   return (
     <div className='flex flex-col items-center justify-center'>
         <p className='border border-white rounded-xl px-2 py-1'>FAQs</p>
-        <p className='text-5xl font-semibold mt-2'>Frequently Asked Questions</p>
+        <p className='lg:text-5xl text-4xl font-semibold mt-2'>Frequently Asked Questions</p>
         <div className='my-6 w-full'>
             <Accordion transition transitionTimeout={250} className='border border-white rounded-2xl px-6 py-4'>
                 <AccordionItem header="Where are you from?">

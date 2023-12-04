@@ -10,19 +10,19 @@ import SpecialtyCard from "@/components/specialty-card/specialty-card";
 export default function Home() {
   return (
     <main className="flex flex-col w-full min-h-screen mt-20">
-      <div className="flex justify-between w-full">
+      <div className="flex lg:flex-row flex-col lg:justify-between w-full">
         <Intro></Intro>
         <LightBulb></LightBulb>
       </div>
       <MouseScroll></MouseScroll>
-      <div className="mt-36">
+      <div className="lg:mt-36 mt-80">
         <SpecialtyCard></SpecialtyCard>
       </div>
       <div className="mt-20">
         <Portfolio></Portfolio>
       </div>
       <div className="mt-24">
-        <p className="text-5xl font-semibold text-center mb-4" id="cont">Contact Me</p>
+        <p className="lg:text-5xl text-4xl font-semibold text-center mb-4" id="cont">Contact Me</p>
         <Contact></Contact>
       </div>
       <div className="my-28">

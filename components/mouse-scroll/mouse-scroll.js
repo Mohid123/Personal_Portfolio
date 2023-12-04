@@ -1,6 +1,6 @@
 export default function MouseScroll() {
     return (
-        <div className="mouse_scroll">
+        <div className="mouse_scroll lg:block hidden">
             <div className="mouse">
                 <div className="wheel"></div>
             </div>

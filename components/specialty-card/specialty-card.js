@@ -27,7 +27,7 @@ const SpecialtyCard = () => {
             "NgRx"
         ];
         const options = {
-            radius: 350 ,
+            radius: 300 ,
             maxSpeed: 'normal',
             initSpeed: 'normal',
             keep: true,
@@ -35,9 +35,9 @@ const SpecialtyCard = () => {
         TagCloud(container, texts, options)
     }, [])
     return (
-        <div className='flex justify-between'>
-            <div className='w-1/2'>
-                <p className='text-5xl font-semibold'>About me</p>
+        <div className='flex lg:flex-row flex-col lg:justify-between'>
+            <div className='lg:w-1/2 w-full'>
+                <p className='lg:text-5xl text-4xl font-semibold'>About me</p>
                 <p className='mt-4 text-lg font-semibold'>
                     I'm an experienced full-stack web developer with my primary specialty being in crafting front end UI interfaces. I earned my bachelor's degree in Space Sciences in 2020. Over the past 4 years, I've honed my skills to specialize in crafting visually impactful frontends within the dynamic realm of web development.
                     <br></br>
@@ -48,8 +48,8 @@ const SpecialtyCard = () => {
                     <br></br>
                     Away from the screen, I'm an avid reader, delving into the worlds of literature and anime for inspiration. On the field, my passion for strategy and teamwork shines through in my love for cricket and football. Coding is more than a profession for me; it's a compelling journey of exploration and innovation. Let's collaborate and bring your digital aspirations to fruition! </p>
             </div>
-            <div className="relative flex justify-end w-full bg-inherit">
-                <span className='font-semibold tagcloud'></span>
+            <div className="relative flex lg:justify-end items-center justify-center w-full bg-inherit overflow-hidden">
+                <span className='font-semibold lg:text-base text-[12px] tagcloud'></span>
             </div>
         </div>
     )

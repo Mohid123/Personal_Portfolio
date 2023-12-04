@@ -1,12 +1,12 @@
 export default function Portfolio() {
     return (
         <div className="flex flex-col">
-            <p className="text-5xl font-semibold text-center">Selected Works</p>
+            <p className="lg:text-5xl text-4xl font-semibold text-center">Selected Works</p>
             <p className="text-sm font-semibold text-center">A few projects I've worked on along the way...</p>
-            <div className='gap-4 mt-4 columns-3'>
+            <div className='gap-4 mt-4 lg:columns-3 columns-1'>
                 <div className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
-                        <div>
+                        <div className="lg:block hidden">
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">DEPA&reg; HRPMS & App Store</div>
                                 <div className="text-sm opacity-100 ">
@@ -14,6 +14,15 @@ export default function Portfolio() {
                                     location for managing the organization and its subsidiaries' applications and modules. The app store
                                     includes many features such as drag-and-drop form builder, Active Directory authentication, workflow
                                     creation with approval/rejection functionality, PDF forms, and much more.
+                                </div>
+                            </div>
+                        </div>
+                        <div className="block lg:hidden">
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
+                                <div className="font-bold">DEPA&reg; HRPMS & App Store</div>
+                                <div className="text-sm opacity-100 ">
+                                    A corporate app store for DEPA Interiors LLC, which provides a centralized
+                                    location for managing the organization and its subsidiaries' applications and modules.
                                 </div>
                             </div>
                         </div>
@@ -27,7 +36,7 @@ export default function Portfolio() {
                 {/* second */}
                 <div className="relative mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
-                        <div>
+                        <div className="lg:block hidden">
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">Animetography Blog</div>
                                 <div className="text-sm opacity-100 ">
@@ -37,6 +46,16 @@ export default function Portfolio() {
                                 blog post management within individual user sessions. Boasting a tailor-made, feature-rich text editor, the
                                 application also incorporates essential functionalities such as email notifications and profile management
                                 to ensure a comprehensive user experience
+                                </div>
+                            </div>
+                        </div>
+                        <div className="block lg:hidden">
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
+                                <div className="font-bold">Animetography Blog</div>
+                                <div className="text-sm opacity-100 ">
+                                This Progressive Web App (PWA) is meticulously engineered to furnish users with a
+                                robust platform for creating and overseeing blog posts, scheduling content, and facilitating personalized
+                                blog post management within individual user sessions.
                                 </div>
                             </div>
                         </div>
@@ -71,15 +90,22 @@ export default function Portfolio() {
                 {/* Third */}
                 <div className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
-                        <div>
-                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
-                            >
+                        <div className="lg:block hidden">
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">U.S Border Patrol Museum Dashboard</div>
                                 <div className="text-sm opacity-100 ">
                                     This application is designed to manage and display the historical data of the United States Border patrol,
                                     from the old West, Prohibition, and WWII, right up to current operations. It serves to honor the
                                     bravery and dedication of the people who served their country as well as the patrons who fund this
                                     non-profit exhibit.
+                                </div>
+                            </div>
+                        </div>
+                        <div className="block lg:hidden">
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
+                                <div className="font-bold">U.S Border Patrol Museum Dashboard</div>
+                                <div className="text-sm opacity-100 ">
+                                    This application is designed to manage and display the historical data of the United States Border patrol museum
                                 </div>
                             </div>
                         </div>
@@ -115,14 +141,22 @@ export default function Portfolio() {
                 {/* Fifth */}
                 <div className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
-                        <div>
-                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
-                            >
+                        <div className="lg:block hidden">
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">Extsy&reg; Dashboard</div>
                                 <div className="text-sm opacity-100 ">
                                 Extsy&reg; Dashboard is a Social media application boasting an Nft Marketplace, P2P trade coverage and a
                                 secure crypto wallet to effortlessly send and receive coins or tokens. It has other features such as social media
                                 groups, events, playlists, posting and content management
+                                </div>
+                            </div>
+                        </div>
+                        <div className="block lg:hidden">
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
+                                <div className="font-bold">Extsy&reg; Dashboard</div>
+                                <div className="text-sm opacity-100 ">
+                                Extsy&reg; Dashboard is a Social media application boasting an Nft Marketplace, P2P trade coverage and a
+                                secure crypto wallet to effortlessly send and receive coins or tokens.
                                 </div>
                             </div>
                         </div>
