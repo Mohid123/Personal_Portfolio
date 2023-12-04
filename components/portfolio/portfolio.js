@@ -1,12 +1,12 @@
 export default function Portfolio() {
     return (
         <div className="flex flex-col">
-            <p className="lg:text-5xl text-4xl font-semibold text-center">Selected Works</p>
+            <p className="text-4xl font-semibold text-center lg:text-5xl">Selected Works</p>
             <p className="text-sm font-semibold text-center">A few projects I've worked on along the way...</p>
             <div className='gap-4 mt-4 lg:columns-3 columns-1'>
                 <div className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
-                        <div className="lg:block hidden">
+                        <div className="hidden lg:block">
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">DEPA&reg; HRPMS & App Store</div>
                                 <div className="text-sm opacity-100 ">
@@ -36,7 +36,7 @@ export default function Portfolio() {
                 {/* second */}
                 <div className="relative mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
-                        <div className="lg:block hidden">
+                        <div className="hidden lg:block">
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">Animetography Blog</div>
                                 <div className="text-sm opacity-100 ">
@@ -90,7 +90,7 @@ export default function Portfolio() {
                 {/* Third */}
                 <div className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
-                        <div className="lg:block hidden">
+                        <div className="hidden lg:block">
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">U.S Border Patrol Museum Dashboard</div>
                                 <div className="text-sm opacity-100 ">
@@ -141,7 +141,7 @@ export default function Portfolio() {
                 {/* Fifth */}
                 <div className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
-                        <div className="lg:block hidden">
+                        <div className="hidden lg:block">
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">Extsy&reg; Dashboard</div>
                                 <div className="text-sm opacity-100 ">
@@ -168,7 +168,7 @@ export default function Portfolio() {
                     />
                 </div>
                 {/* Sixth */}
-                {/* <div className="relative mb-4 overflow-hidden cursor-pointer w-full rounded-xl group">
+                <div className="relative w-full mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div>
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
@@ -183,10 +183,51 @@ export default function Portfolio() {
                     </div>
                     <img
                         alt="abc"
-                        className="object-cover w-full transition duration-300 ease-in-out group-hover:scale-110"
-                        src="https://res.cloudinary.com/drgn2zip5/image/upload/v1701617539/jydfkaivgsgzswkwbr8j.png"
+                        className="object-cover w-full transition duration-300 ease-in-out aspect-square group-hover:scale-110"
+                        src="https://res.cloudinary.com/drgn2zip5/image/upload/v1701682674/mccjfdrnouwqfpkhxdg3.png"
                     />
-                </div> */}
+                </div>
+                {/* Seventh */}
+                <div className="relative w-full mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
+                        <div>
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                            >
+                                <div className="font-bold">PES Event Manager</div>
+                                <div className="text-sm opacity-100 ">
+                                    An event manager dashboard made for the Pakistan Endocrine Society. Features includes
+                                    events, speakers, sponsors management/creation and advanced agenda creation/management
+                                    with venues, times and dates and more.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img
+                        alt="abc"
+                        className="object-cover w-full transition duration-300 ease-in-out aspect-video group-hover:scale-110"
+                        src="https://res.cloudinary.com/drgn2zip5/image/upload/v1701682674/xtadhbvjlg9xt3k1m0fj.png"
+                    />
+                </div>
+                {/* Eigth */}
+                <div className="relative w-full mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
+                        <div>
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                            >
+                                <div className="font-bold">NodeChain&reg; NFT Marketplace</div>
+                                <div className="text-sm opacity-100 ">
+                                    Web marketplace dashboard for selling and buying NFT's. It has features like gas fees, gasless NFT'S
+                                    crypto trading with secure payment and transactions and more.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img
+                        alt="abc"
+                        className="object-cover w-full transition duration-300 ease-in-out aspect-square group-hover:scale-110"
+                        src="https://res.cloudinary.com/drgn2zip5/image/upload/v1701682674/m0izxewzzud5qcchzjs4.png"
+                    />
+                </div>
             </div>
         </div>
     )
