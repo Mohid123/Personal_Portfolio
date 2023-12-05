@@ -184,7 +184,7 @@ export default function Portfolio() {
                     <img
                         alt="abc"
                         className="object-cover w-full transition duration-300 ease-in-out aspect-square group-hover:scale-110"
-                        src="https://res.cloudinary.com/drgn2zip5/image/upload/v1701682674/mccjfdrnouwqfpkhxdg3.png"
+                        src="https://res.cloudinary.com/drgn2zip5/image/upload/v1701762472/l9ff60f0siub6p3zunib.png"
                     />
                 </div>
                 {/* Seventh */}
