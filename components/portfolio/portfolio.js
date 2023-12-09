@@ -3,7 +3,7 @@ export default function Portfolio() {
         <div className="flex flex-col">
             <p className="text-4xl font-semibold text-center lg:text-5xl">Selected Works</p>
             <p className="text-sm font-semibold text-center">A few projects I've worked on along the way...</p>
-            <div className='gap-4 mt-4 lg:columns-3 columns-1'>
+            <div className='gap-4 mt-4 lg:columns-3 md:columns-2 columns-1'>
                 <div className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div className="hidden lg:block">
@@ -190,7 +190,7 @@ export default function Portfolio() {
                 {/* Seventh */}
                 <div className="relative w-full mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
-                        <div>
+                        <div className="lg:block hidden">
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
                             >
                                 <div className="font-bold">PES Event Manager</div>
@@ -198,6 +198,16 @@ export default function Portfolio() {
                                     An event manager dashboard made for the Pakistan Endocrine Society. Features includes
                                     events, speakers, sponsors management/creation and advanced agenda creation/management
                                     with venues, times and dates and more.
+                                </div>
+                            </div>
+                        </div>
+                        <div className="block lg:hidden">
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                            >
+                                <div className="font-bold">PES Event Manager</div>
+                                <div className="text-sm opacity-100 ">
+                                    An event manager dashboard made for the Pakistan Endocrine Society used for managing
+                                    events, venues, speakers and more.
                                 </div>
                             </div>
                         </div>
@@ -212,11 +222,11 @@ export default function Portfolio() {
                 <div className="relative w-full mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div>
-                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                            <div className="p-4 pb-6 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
                             >
                                 <div className="font-bold">NodeChain&reg; NFT Marketplace</div>
                                 <div className="text-sm opacity-100 ">
-                                    Web marketplace dashboard for selling and buying NFT's. It has features like gas fees, gasless NFT'S
+                                    Web marketplace dashboard for selling and buying NFT's. It has features like gasless NFT'S
                                     crypto trading with secure payment and transactions and more.
                                 </div>
                             </div>
