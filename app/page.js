@@ -1,4 +1,5 @@
 import AccordionComp from "@/components/accordion/accordion";
+import Certificates from "@/components/certificates/certificates";
 import Contact from "@/components/contact/contact";
 import Footer from "@/components/footer/footer";
 import Intro from "@/components/intro/intro";
@@ -20,6 +21,10 @@ export default function Home() {
       </div>
       <div className="mt-20">
         <Portfolio></Portfolio>
+      </div>
+      <div className="mt-24">
+        <p className="lg:text-5xl text-4xl font-semibold text-center mb-4" id="cont">Certificates & Awards</p>
+        <Certificates></Certificates>
       </div>
       <div className="mt-24">
         <p className="lg:text-5xl text-4xl font-semibold text-center mb-4" id="cont">Contact Me</p>
