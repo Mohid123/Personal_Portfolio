@@ -11,7 +11,7 @@ import SpecialtyCard from "@/components/specialty-card/specialty-card";
 export default function Home() {
   return (
     <main className="flex flex-col w-full min-h-screen mt-20">
-      <div className="flex lg:flex-row flex-col lg:justify-between w-full">
+      <div className="flex flex-col w-full lg:flex-row lg:justify-between">
         <Intro></Intro>
         <LightBulb></LightBulb>
       </div>
@@ -23,11 +23,11 @@ export default function Home() {
         <Portfolio></Portfolio>
       </div>
       <div className="mt-24">
-        <p className="lg:text-5xl text-4xl font-semibold text-center mb-4" id="cont">Certificates & Awards</p>
+        <p className="mb-4 text-4xl font-semibold text-center lg:text-5xl">Certificates & Awards</p>
         <Certificates></Certificates>
       </div>
       <div className="mt-24">
-        <p className="lg:text-5xl text-4xl font-semibold text-center mb-4" id="cont">Contact Me</p>
+        <p className="mb-4 text-4xl font-semibold text-center lg:text-5xl" id="cont">Contact Me</p>
         <Contact></Contact>
       </div>
       <div className="my-28">
