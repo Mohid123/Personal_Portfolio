@@ -1,11 +1,12 @@
+'use client'
 export default function Portfolio() {
     return (
         <div className="flex flex-col">
             <p className="text-4xl font-semibold text-center lg:text-5xl">Selected Works</p>
             <p className="text-sm font-semibold text-center">A few projects I've worked on along the way...</p>
             <div className='gap-4 mt-4 lg:columns-3 md:columns-2 columns-1'>
-                <div className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
-                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
+                <div onClick={() => window.open('https://github.com/Mohid123/DEPA-Workflow-Management-System', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div className="hidden lg:block">
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">DEPA&reg; HRPMS & App Store</div>
@@ -18,24 +19,23 @@ export default function Portfolio() {
                             </div>
                         </div>
                         <div className="block lg:hidden">
-                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
+                            <div className="p-4 pb-10 space-y-3 text-xl opacity-100">
                                 <div className="font-bold">DEPA&reg; HRPMS & App Store</div>
                                 <div className="text-sm opacity-100 ">
-                                    A corporate app store for DEPA Interiors LLC, which provides a centralized
-                                    location for managing the organization and its subsidiaries' applications and modules.
+                                    A corporate app store for DEPA Interiors LLC.
                                 </div>
                             </div>
                         </div>
                     </div>
                     <img
                         alt="abc"
-                        className="object-cover w-full transition duration-300 ease-in-out aspect-video group-hover:scale-110"
+                        className="object-cover w-full aspect-video"
                         src="https://res.cloudinary.com/drgn2zip5/image/upload/v1701583589/klppdmolidnn0xewoqxl.png"
                     />
                 </div>
                 {/* second */}
-                <div className="relative mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
-                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
+                <div onClick={() => window.open('https://github.com/Mohid123/Animetography-Blog', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div className="hidden lg:block">
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">Animetography Blog</div>
@@ -53,9 +53,8 @@ export default function Portfolio() {
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">Animetography Blog</div>
                                 <div className="text-sm opacity-100 ">
-                                This Progressive Web App (PWA) is meticulously engineered to furnish users with a
-                                robust platform for creating and overseeing blog posts, scheduling content, and facilitating personalized
-                                blog post management within individual user sessions.
+                                  Customised robust blogging platform for creating and overseeing blog posts, scheduling content, and facilitating personalized
+                                  blog post management within individual user sessions
                                 </div>
                             </div>
                         </div>
@@ -67,11 +66,10 @@ export default function Portfolio() {
                     />
                 </div>
                 {/* Second */}
-                <div className="relative mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
-                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
+                <div onClick={() => window.open('https://github.com/Mohid123/Social_Media_Manager', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div>
-                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
-                            >
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">Dividis&reg; Social Media Manager</div>
                                 <div className="text-sm opacity-100 ">
                                     Dividis&reg; Social Media Manager or SMM for short is a Social media management platform developed for
@@ -88,8 +86,8 @@ export default function Portfolio() {
                     />
                 </div>
                 {/* Third */}
-                <div className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
-                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
+                <div onClick={() => window.open('https://github.com/Mohid123/Memorial-Data-Info', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div className="hidden lg:block">
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">U.S Border Patrol Museum Dashboard</div>
@@ -105,7 +103,7 @@ export default function Portfolio() {
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">U.S Border Patrol Museum Dashboard</div>
                                 <div className="text-sm opacity-100 ">
-                                    This application is designed to manage and display the historical data of the United States Border patrol museum
+                                    Dashboard to manage and display the historical data of the United States Border patrol museum.
                                 </div>
                             </div>
                         </div>
@@ -117,8 +115,8 @@ export default function Portfolio() {
                     />
                 </div>
                 {/* Fourth */}
-                <div className="relative mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
-                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
+                <div onClick={() => window.open('https://github.com/Mohid123/Merchant_Panel', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div>
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
                             >
@@ -139,8 +137,8 @@ export default function Portfolio() {
                     />
                 </div>
                 {/* Fifth */}
-                <div className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
-                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
+                <div onClick={() => window.open('https://github.com/Mohid123/Extsy-Web', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div className="hidden lg:block">
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">Extsy&reg; Dashboard</div>
@@ -155,7 +153,7 @@ export default function Portfolio() {
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">Extsy&reg; Dashboard</div>
                                 <div className="text-sm opacity-100 ">
-                                Extsy&reg; Dashboard is a Social media application boasting an Nft Marketplace, P2P trade coverage and a
+                                Social media application boasting an Nft Marketplace, P2P trade coverage and a
                                 secure crypto wallet to effortlessly send and receive coins or tokens.
                                 </div>
                             </div>
@@ -168,12 +166,12 @@ export default function Portfolio() {
                     />
                 </div>
                 {/* Sixth */}
-                <div className="relative w-full mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
-                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
+                <div onClick={() => window.open('https://github.com/Mohid123/UroojPortfolioNew', '_blank').focus()} className="relative w-full mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div>
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
                             >
-                                <div className="font-bold">Astronomy Portfolio</div>
+                                <div className="font-bold">Data Sceinctist Portfolio</div>
                                 <div className="text-sm opacity-100 ">
                                     This portfolio is a showcase application built with the functionality of allowing the user to edit the page
                                     content as needed. It uses IndexDb to store data and also has offline functionality
@@ -188,9 +186,9 @@ export default function Portfolio() {
                     />
                 </div>
                 {/* Seventh */}
-                <div className="relative w-full mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
-                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
-                        <div className="lg:block hidden">
+                <div onClick={() => window.open('https://github.com/Pak-Endo/Pak-Endo-Admin', '_blank').focus()} className="relative w-full mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
+                        <div className="hidden lg:block">
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
                             >
                                 <div className="font-bold">PES Event Manager</div>
@@ -220,7 +218,7 @@ export default function Portfolio() {
                 </div>
                 {/* Eigth */}
                 <div className="relative w-full mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
-                    <div className="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 cursor-pointer rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
+                    <div onClick={() => window.open('https://github.com/Mohid123/Nft_Marketplace', '_blank').focus()} className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div>
                             <div className="p-4 pb-6 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
                             >

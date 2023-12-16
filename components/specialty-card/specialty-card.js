@@ -1,13 +1,20 @@
 'use client'
+import { useMediaQuery } from '@uidotdev/usehooks';
 import { useEffect } from 'react';
 import TagCloud from 'TagCloud';
 
 const SpecialtyCard = () => {
+    const isSmallDevice = useMediaQuery("only screen and (max-width : 768px)");
+    const isMediumDevice = useMediaQuery("only screen and (min-width : 769px) and (max-width : 992px)");
+    const isLargeDevice = useMediaQuery("only screen and (min-width : 993px) and (max-width : 1200px)");
+    const isExtraLargeDevice = useMediaQuery("only screen and (min-width : 1201px)");
+
     useEffect(() => {
         const container = '.tagcloud';
         const texts = [
             "JavaScript",
             "TypeScript",
+            "C++",
             "HTML5",
             "CSS",
             "SASS",
@@ -31,17 +38,17 @@ const SpecialtyCard = () => {
             "NgRx"
         ];
         const options = {
-            radius: 300 ,
-            maxSpeed: 'normal',
-            initSpeed: 'normal',
+            radius: isSmallDevice || isMediumDevice ? '200': '300' ,
+            maxSpeed: isSmallDevice || isMediumDevice ? 'fast' : 'normal',
+            initSpeed: isSmallDevice || isMediumDevice ? 'fast': 'normal',
             keep: true,
         };
         TagCloud(container, texts, options)
     }, [])
     return (
-        <div className='flex lg:flex-row flex-col lg:justify-between'>
-            <div className='lg:w-1/2 w-full'>
-                <p className='lg:text-5xl text-4xl font-semibold'>About me</p>
+        <div className='flex flex-col lg:flex-row lg:justify-between'>
+            <div className='w-full lg:w-1/2'>
+                <p className='text-4xl font-semibold lg:text-5xl'>About me</p>
                 <p className='mt-4 text-lg font-semibold'>
                     I'm an experienced full-stack web developer with my primary specialty being in crafting front end UI interfaces. I earned my bachelor's degree in Space Sciences in 2020. Over the past 4 years, I've honed my skills to specialize in crafting visually impactful frontends within the dynamic realm of web development.
                     <br></br>
@@ -52,7 +59,7 @@ const SpecialtyCard = () => {
                     <br></br>
                     Away from the screen, I'm an avid reader, delving into the worlds of literature and anime for inspiration. On the field, my passion for strategy and teamwork shines through in my love for cricket and football. Coding is more than a profession for me; it's a compelling journey of exploration and innovation. Let's collaborate and bring your digital aspirations to fruition! </p>
             </div>
-            <div className="relative flex lg:justify-end items-center justify-center w-full bg-inherit overflow-hidden">
+            <div className="relative flex items-center justify-center w-full overflow-hidden lg:justify-end bg-inherit">
                 <span className='font-semibold lg:text-base text-[12px] tagcloud'></span>
             </div>
         </div>
