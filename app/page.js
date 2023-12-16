@@ -1,3 +1,4 @@
+import dynamic from 'next/dynamic'
 import AccordionComp from "@/components/accordion/accordion";
 import Certificates from "@/components/certificates/certificates";
 import Contact from "@/components/contact/contact";
@@ -6,7 +7,10 @@ import Intro from "@/components/intro/intro";
 import LightBulb from "@/components/light-bulb/light-bulb";
 import MouseScroll from "@/components/mouse-scroll/mouse-scroll";
 import Portfolio from "@/components/portfolio/portfolio";
-import SpecialtyCard from "@/components/specialty-card/specialty-card";
+const SpecialtyCard = dynamic(() => import('../components/specialty-card/specialty-card'), {
+  loading: () => <p>Loading...</p>,
+  ssr: false,
+})
 
 export default function Home() {
   return (

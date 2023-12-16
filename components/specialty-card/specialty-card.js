@@ -3,12 +3,10 @@ import { useMediaQuery } from '@uidotdev/usehooks';
 import { useEffect } from 'react';
 import TagCloud from 'TagCloud';
 
-const SpecialtyCard = () => {
+export default function SpecialtyCard() {
     const isSmallDevice = useMediaQuery("only screen and (max-width : 768px)");
     const isMediumDevice = useMediaQuery("only screen and (min-width : 769px) and (max-width : 992px)");
-    const isLargeDevice = useMediaQuery("only screen and (min-width : 993px) and (max-width : 1200px)");
-    const isExtraLargeDevice = useMediaQuery("only screen and (min-width : 1201px)");
-
+    
     useEffect(() => {
         const container = '.tagcloud';
         const texts = [
@@ -65,5 +63,3 @@ const SpecialtyCard = () => {
         </div>
     )
 }
-
-export default SpecialtyCard
