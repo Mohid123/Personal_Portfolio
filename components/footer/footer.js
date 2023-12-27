@@ -10,9 +10,9 @@ export default function Footer() {
             <p className="text-xl font-semibold">Mohid.</p>
             <p className="text-sm font-semibold">Full Stack Web Developer</p>
             <div className="flex justify-center mt-4 gap-x-3">
-                <a href="https://twitter.com/AniMohid" target="_blank">
+                {/* <a href="https://twitter.com/AniMohid" target="_blank">
                     <Image src={twitter} alt="twitter"/>
-                </a>
+                </a> */}
                 <a href="https://www.linkedin.com/in/muhammad-mohid/" target="_blank">
                     <Image src={linkedin} alt="linkedin"/>
                 </a>
