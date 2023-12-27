@@ -69,12 +69,19 @@ export default function Portfolio() {
                 <div onClick={() => window.open('https://github.com/Mohid123/Social_Media_Manager', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div>
-                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
+                            <div className="hidden p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 lg:block transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">Dividis&reg; Social Media Manager</div>
                                 <div className="text-sm opacity-100 ">
                                     Dividis&reg; Social Media Manager or SMM for short is a Social media management platform developed for
                                     football clubs to manage all social media accounts, posts and interactions from a single location! It provides
                                     features like scheduling posts, managing interactions and handling social media profiles of multiple platforms simultaneously.
+                                </div>
+                            </div>
+                            <div className="block p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 lg:hidden transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
+                                <div className="font-bold">Dividis&reg; Social Media Manager</div>
+                                <div className="text-sm opacity-100 ">
+                                    Dividis&reg; Social Media Manager is a Social media management platform developed for
+                                    football clubs to manage all social media accounts, posts and interactions.
                                 </div>
                             </div>
                         </div>
@@ -103,7 +110,7 @@ export default function Portfolio() {
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
                                 <div className="font-bold">U.S Border Patrol Museum Dashboard</div>
                                 <div className="text-sm opacity-100 ">
-                                    Dashboard to manage and display the historical data of the United States Border patrol museum.
+                                    Dashboard to manage the data of the U.S Border patrol museum.
                                 </div>
                             </div>
                         </div>
@@ -118,7 +125,7 @@ export default function Portfolio() {
                 <div onClick={() => window.open('https://github.com/Mohid123/Merchant_Panel', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div>
-                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                            <div className="hidden p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0 lg:block"
                             >
                                 <div className="font-bold">Divideals&trade; Merchant Panel</div>
                                 <div className="text-sm opacity-100 ">
@@ -126,6 +133,14 @@ export default function Portfolio() {
                                     offering a sophisticated platform to seamlessly publish and manage a diverse range of promotional
                                     content, including deals, vouchers, and products. Its comprehensive suite of features extends
                                     beyond content publication to encompass robust analytics, providing in-depth insights into sales and purchases
+                                </div>
+                            </div>
+                            <div className="block p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0 lg:hidden"
+                            >
+                                <div className="font-bold">Divideals&trade; Merchant Panel</div>
+                                <div className="text-sm opacity-100 ">
+                                    Divideals&trade; Merchant Panel is an advanced dashboard tailored for merchants and sellers,
+                                    offering a platform to publish and manage products, robust analytics and more.
                                 </div>
                             </div>
                         </div>

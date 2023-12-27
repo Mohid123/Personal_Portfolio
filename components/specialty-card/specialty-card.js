@@ -22,6 +22,7 @@ export default function SpecialtyCard() {
             "Node JS",
             "Nest JS",
             "Express JS",
+            "Firebase",
             "npm",
             "Git",
             "JSON",
