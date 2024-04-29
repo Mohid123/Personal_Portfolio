@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <div className="w-full pt-4 text-center border-t border-white">
             <p className="text-xl font-semibold">Mohid.</p>
-            <p className="text-sm font-semibold">Full Stack Web Developer</p>
+            <p className="text-sm font-semibold">Front End Web Developer</p>
             <div className="flex justify-center mt-4 gap-x-3">
                 {/* <a href="https://twitter.com/AniMohid" target="_blank">
                     <Image src={twitter} alt="twitter"/>
