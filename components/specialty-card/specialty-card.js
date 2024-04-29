@@ -49,7 +49,7 @@ export default function SpecialtyCard() {
             <div className='w-full lg:w-1/2'>
                 <p className='text-4xl font-semibold lg:text-5xl'>About me</p>
                 <p className='mt-4 text-lg font-semibold'>
-                    I'm an experienced full-stack web developer with my primary specialty being in crafting front end UI interfaces. I earned my bachelor's degree in Space Sciences in 2020. Over the past 4 years, I've honed my skills to specialize in crafting visually impactful frontends within the dynamic realm of web development.
+                    I'm an experienced front end web developer, with my primary specialty being in crafting front end UI interfaces. I earned my bachelor's degree in Space Sciences in 2020. Over the past 4 years, I've honed my skills to specialize in crafting visually impactful frontends within the dynamic realm of web development.
                     <br></br>
                     <br></br>
                     I have had many opportunities to work both for companies and individuals which has allowed me to gain significant amounts of experience and knowledge.
