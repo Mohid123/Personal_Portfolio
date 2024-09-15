@@ -33,6 +33,59 @@ export default function Portfolio() {
                         src="https://res.cloudinary.com/drgn2zip5/image/upload/v1701583589/klppdmolidnn0xewoqxl.png"
                     />
                 </div>
+
+                <div onClick={() => window.open('https://www.laptopoutlet.co.uk/', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
+                        <div className="hidden lg:block">
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
+                                <div className="font-bold">LaptopOutlet&#8482;</div>
+                                <div className="text-sm opacity-100 ">
+                                Laptop Outlet is one of the UK's leading tech retailers, offering new and refurbished tech devices, including laptops, smartphones, PCs, tablets, accessories, and much more. 
+                                </div>
+                            </div>
+                        </div>
+                        <div className="block lg:hidden">
+                            <div className="p-4 pb-10 space-y-3 text-xl opacity-100">
+                                <div className="font-bold">LaptopOutlet&#8482;</div>
+                                <div className="text-sm opacity-100 ">
+                                    One of the UK's leading tech retailers.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img
+                        alt="abc"
+                        className="object-cover w-full aspect-video"
+                        src="https://res.cloudinary.com/drgn2zip5/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1726417721/sahkikl9p2pcb5tb0ljy.png"
+                    />
+                </div>
+
+                <div onClick={() => window.open('https://box.co.uk/', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
+                    <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
+                        <div className="hidden lg:block">
+                            <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
+                                <div className="font-bold">BOX&#8482;</div>
+                                <div className="text-sm opacity-100 ">
+                                With over 1 million satisfied customers and 95% who would buy again, Box&#8482; has established itself as one of the top tech retailers in the UK! 
+                                </div>
+                            </div>
+                        </div>
+                        <div className="block lg:hidden">
+                            <div className="p-4 pb-10 space-y-3 text-xl opacity-100">
+                                <div className="font-bold">BOX&#8482;</div>
+                                <div className="text-sm opacity-100 ">
+                                    One of the UK's top tech retailers.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img
+                        alt="abc"
+                        className="object-cover w-full aspect-video"
+                        src="https://res.cloudinary.com/drgn2zip5/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1726417866/tmcurwg0eaj4brzhuevp.png"
+                    />
+                </div>
+                
                 {/* second */}
                 <div onClick={() => window.open('https://github.com/Mohid123/Animetography-Blog', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
