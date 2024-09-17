@@ -35,19 +35,19 @@ export default function AccordionComp() {
                 </AccordionItem>
 
                 <AccordionItem header="What is your hourly rate?">
-                    My hourly rate is 10$.
+                    My hourly rate is 40$.
+                </AccordionItem>
+
+                <AccordionItem header="What are your working hours?">
+                    My standard working hours are the usual 9-5. But based on the client&apos;s location and requirements I adjust my hours.
                 </AccordionItem>
 
                 <AccordionItem header="What is your phone number and email?">
-                    My phone number is +92-300-4313277. My email is muhammadmohid141@gmail.com
-                </AccordionItem>
-
-                <AccordionItem header="Are you married?">
-                    No.
+                    My phone number is +92-300-4313277. My email is muhammadmohid141@gmail.com. I prefe to be contacted via email.
                 </AccordionItem>
 
                 <AccordionItem header="What kind of job type are you open to working for?">
-                    I am open to working Full-Time as well as on a Contract basis.
+                    I am open to working Full-Time, Part Time as well as on a Contract basis.
                 </AccordionItem>
 
                 <AccordionItem header="What kind of projects do you work on?">

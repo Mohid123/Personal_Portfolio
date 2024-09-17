@@ -5,7 +5,7 @@ export default function Portfolio() {
             <p className="text-4xl font-semibold text-center lg:text-5xl">Selected Works</p>
             <p className="text-sm font-semibold text-center">A few projects I've worked on along the way...</p>
             <div className='gap-4 mt-4 lg:columns-3 md:columns-2 columns-1'>
-                <div onClick={() => window.open('https://github.com/Mohid123/DEPA-Workflow-Management-System', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
+                <div onClick={() => window.open('https://nexus.depa.com', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div className="hidden lg:block">
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
@@ -146,7 +146,7 @@ export default function Portfolio() {
                     />
                 </div>
                 {/* Third */}
-                <div onClick={() => window.open('https://github.com/Mohid123/Memorial-Data-Info', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
+                <div onClick={() => window.open('https://info.memorialdatainfo.com/', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div className="hidden lg:block">
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
@@ -234,7 +234,7 @@ export default function Portfolio() {
                     />
                 </div>
                 {/* Sixth */}
-                <div onClick={() => window.open('https://github.com/Mohid123/UroojPortfolioNew', '_blank').focus()} className="relative w-full mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
+                <div onClick={() => window.open('https://urooj-portfolio-new.vercel.app', '_blank').focus()} className="relative w-full mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div>
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
