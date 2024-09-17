@@ -87,7 +87,7 @@ export default function Portfolio() {
                 </div>
                 
                 {/* second */}
-                <div onClick={() => window.open('https://github.com/Mohid123/Animetography-Blog', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
+                <div onClick={() => window.open('https://animetography-blog.com/', '_blank').focus()} className="relative mb-4 overflow-hidden cursor-pointer aspect-square rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div className="hidden lg:block">
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
@@ -254,7 +254,7 @@ export default function Portfolio() {
                     />
                 </div>
                 {/* Seventh */}
-                <div onClick={() => window.open('https://github.com/Pak-Endo/Pak-Endo-Admin', '_blank').focus()} className="relative w-full mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
+                <div onClick={() => window.open('https://pak-endo-admin.vercel.app', '_blank').focus()} className="relative w-full mb-4 overflow-hidden cursor-pointer aspect-video rounded-xl group">
                     <div className="absolute inset-x-0 z-50 flex items-end text-white opacity-100 cursor-pointer lg:transition lg:duration-300 lg:ease-in-out lg:opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-44">
                         <div className="hidden lg:block">
                             <div className="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out transform translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
